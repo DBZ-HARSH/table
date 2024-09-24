@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: yellow; 
+        }
+        td[rowspan] {
+            vertical-align: middle; 
+            background-color: pink; 
+            width: 30%;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <th colspan="7">Final Examination Schedule - Fall 2008</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>Monday <nav>Dec. 15</nav></th>
+            <th>Tuesday <nav>Dec.16</nav></th>
+            <th>Wednesday <nav>Dec.17</nav></th>
+            <th>Thursday <nav>Dec.18</nav></th>
+            <td rowspan="6"><b>Home</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="grey">8:00 <nav>a.m.</nav></td>
+            <td>Data <nav>Structures</nav></td>
+            <td>Algorithms</td>
+            <td>Computer<nav>Networks</nav></td>
+            <td>Database<nav>Systems</nav></td>
+        </tr>
+        <tr>
+            <td bgcolor="grey">10:00 <nav>a.m.</nav></td>
+            <td>Operating<nav>Systems</nav></td>
+            <td>Artificial<nav>Intelligence</nav></td>
+            <td>Software<nav>Engineering</nav></td>
+            <td>Web<nav>Development</nav></td>
+        </tr>
+        <tr>
+            <td bgcolor="grey">1:00 <nav>p.m.</nav></td>
+            <td>Machine <nav>Learning</nav></td>
+            <td>Cyber<nav>Security</nav></td>
+            <td>Mobile<nav>Computing</nav></td>
+            <td>Human-<nav>Computer</nav><nav>Interface</nav></td>
+        </tr>
+        <tr>
+            <td bgcolor="grey">3:00 <nav>p.m.</nav></td>
+            <td>Big Data <nav>Analytics</nav></td>
+            <td>Cloud<nav>Computing</nav></td>
+            <td>Parallel<nav>Computing</nav></td>
+            <td>Computer<nav>Graphics</nav></td>
+        </tr>
+    </table>   
+</body>
+</html>
